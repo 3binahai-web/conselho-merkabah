@@ -1,0 +1,51 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Secrets — NUNCA COMMITE
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+secrets/
+.secrets/
+
+# Node / build artifacts (se houver ferramentas JS)
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+*.log
+
+# Python (scripts de efemérides)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Data files that may contain sensitive content
+*.sqlite
+*.sqlite3
+*.db
+
+# Local deliberation drafts
+drafts/
+private/
